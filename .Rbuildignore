@@ -1,0 +1,12 @@
+^data-raw$
+^docs$
+^pkgdown$
+^\.github$
+^\.travis\.yml$
+^_pkgdown\.yml$
+^appveyor\.yml$
+^codecov\.yml$
+^eqn2svg\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
+^README\.Rmd$

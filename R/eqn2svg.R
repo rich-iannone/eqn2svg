@@ -19,12 +19,19 @@
 #' # Take LaTeX code for the Heaviside
 #' # Function and convert that to SVG
 #' heaviside <-
-#'   eqn2svg(eqn = l_time_domain[25])
+#'   eqn2svg(
+#'     eqn = l_time_domain[25],
+#'     preview = FALSE
+#'   )
 #'
 #' # Take LaTeX code for the Laplace
-#' # transform of that function
+#' # transform of that function and
+#' # obtain an SVG
 #' heaviside_laplace <-
-#'   eqn2svg(eqn = l_laplace_s_domain[25])
+#'   eqn2svg(
+#'     eqn = l_laplace_s_domain[25],
+#'     preview = FALSE
+#'   )
 #'
 #' @export
 eqn2svg <- function(eqn,

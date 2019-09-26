@@ -5,10 +5,10 @@ Authors@R:
     person("Richard", "Iannone", , "riannone@me.com", c("aut", "cre"),
            comment = c(ORCID = "0000-0003-3925-190X"))
 Description: If you have a mathematical formula and the need to have that
-    formula in the form of scalable vector graphics ('SVG'), you'll be delighted
-    by what 'eqn2svg' will let you do. The incoming formula will be nicely
-    converted to 'SVG' tags. And you can use that code wherever 'SVGs' are
-    accepted.
+    formula in the form of 'scalable vector graphics' ('SVG'), you'll be
+    delighted by what 'eqn2svg' will let you do. The incoming 'LaTeX' formula
+    will be nicely converted to 'SVG' tags. And you can use that code wherever
+    'SVGs' are accepted.
 License: MIT + file LICENSE
 URL: https://github.com/rich-iannone/eqn2svg
 BugReports: https://github.com/rich-iannone/eqn2svg/issues

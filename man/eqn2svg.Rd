@@ -12,6 +12,9 @@ eqn2svg(eqn, preview = TRUE)
 \item{preview}{Should a preview of the formula be shown? By default this is
 \code{TRUE}.}
 }
+\value{
+A length 1 character vector containing \code{<SVG>} tag text.
+}
 \description{
 This function converts a LaTeX math formula to an SVG object. All text in the
 resulting SVG is in the form of SVG \code{<path>}s. The single-length vector
@@ -41,5 +44,4 @@ heaviside_laplace <-
     eqn = l_laplace_s_domain[25],
     preview = FALSE
   )
-
 }

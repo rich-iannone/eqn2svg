@@ -32,6 +32,7 @@
 #'     eqn = l_laplace_s_domain[25],
 #'     preview = FALSE
 #'   )
+#' @return A length 1 character vector containing `<SVG>` tag text.
 #'
 #' @export
 eqn2svg <- function(eqn,

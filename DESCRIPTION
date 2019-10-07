@@ -1,6 +1,6 @@
 Package: eqn2svg
 Title: Create an SVG-Based Mathematical Formula
-Version: 0.1.0
+Version: 0.1.0.9000
 Authors@R: 
     person("Richard", "Iannone", , "riannone@me.com", c("aut", "cre"),
            comment = c(ORCID = "0000-0003-3925-190X"))
